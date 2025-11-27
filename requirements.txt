@@ -1,6 +1,6 @@
-torch==2.1.2+cpu
-torchvision==0.16.2+cpu
--f https://download.pytorch.org/whl/cpu/torch_stable.html
+torch==1.9.0+cu111
+torchvision==0.10.0+cu111
+-f https://download.pytorch.org/whl/torch_stable.html
 fastapi==0.104.1
 uvicorn==0.24.0
 python-multipart==0.0.6
@@ -11,4 +11,3 @@ pandas==2.0.3
 pyyaml==6.0.1
 fvcore==0.1.5.post20221221
 iopath==0.1.10
-detectron2@git+https://github.com/facebookresearch/detectron2.git
